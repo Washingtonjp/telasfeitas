@@ -1,0 +1,26 @@
+.bnt-hover:hover{
+    background-color:#50C5BC;
+}
+
+
+.cor-nav{
+    background-color: #50C5BC; 
+    border: 1px solid #50C5BC;
+    margin-right: 20px;
+ }
+ .cor-nav:hover{
+     background-color: #50C5BC
+ } 
+.list-group-item-action:hover{
+    background-color: #50C5BC;
+    color: white;
+}
+
+.menu-title{
+    color: white;
+    
+}
+
+@media (max-width: 992px) {
+	.menuesquerdo {display: none;}
+}

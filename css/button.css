@@ -1,0 +1,16 @@
+
+/***************************************MODELO DE BOTÃO***********************************/
+/* botão de adicionar verde/branco padrão */
+.btn-add-card{
+    color: white; 
+    background-color: #28C91A; 
+    margin-top: 5px;
+}
+
+
+/* houver é quando o mouse estão na area de ação. */
+.btn-add-card:hover{
+    background-color: #1F9715;
+}
+
+/***************************************MODELO DE BOTÃO***********************************/

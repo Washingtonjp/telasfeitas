@@ -1,0 +1,48 @@
+h1{
+    padding-top:50px;
+    text-align: center;
+    color: #28a745;
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+h2{
+    color: #28a745;
+    margin-left: 50px;
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+}
+
+div.clname{
+    text-align:left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.clemail{
+    text-align:left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div.classunto{
+    text-align:left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.clmensagem{
+    text-align:left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+textarea {
+    resize: none;
+    width: 150px;
+    height: 150px;
+  }
+  

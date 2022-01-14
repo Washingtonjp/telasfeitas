@@ -1,0 +1,142 @@
+/***************************************HEADER BEGIN***********************************/
+header {
+    background-color: #54043c   ;
+    margin:0;
+}
+
+
+
+/***************************************BUTTON SEARCH BEGIN***********************************/
+.button-search {
+    background-color: rgb(255, 255, 255);
+    height:38px; 
+    width: 40px; 
+    padding-left: 1px; 
+    padding-top: 6px; 
+    margin-left: -4px;
+} 
+/***************************************BUTTON SEARCH END***********************************/
+
+
+
+.icon-perfil::before{
+    display: block;
+    content: " ";
+    background-image: url(../images/Users_icon/account.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: block;
+    margin-top: -45px;
+    margin-left: 34px;
+
+} 
+
+.icon-fav::before{
+    display: block;
+    content: " ";
+    background-image: url(../images/Users_icon/favorito.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: block;
+    margin-top: -45px;
+    margin-left: 34px;
+   
+}
+
+.icon-cesta::before{
+
+    display: block;
+    content: "";
+    background-image: url(../images/Users_icon/shopping-cart.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: block;
+    margin-top: -45px;
+    margin-left: 34px;
+
+
+}
+
+
+.icon-user{
+    display:flex;
+    text-align: center;
+}
+
+
+
+.offcanvas-body a{
+    color:#54043c;
+    font-size: 25px;
+}
+
+
+ul{
+margin: 0;
+padding: 0;
+} 
+
+.ul-canvas a {
+    padding: 0;
+    font-weight: 10px;
+}
+ /***************************************HEADER END***********************************/
+
+
+@media (max-width: 576px) {
+    .logo-img{
+        display:none;   
+    } 
+
+    .icon-user{
+        display:none;  
+    }
+
+    .search-mobile{
+        margin-bottom: 15px;
+    } 
+
+    .canvas-mobile{
+        display:flex;
+    }
+
+
+} 
+
+
+@media (max-width:768px){
+   .icon-user{
+    display:none;
+   }
+    
+nav{
+    display:none;
+}
+.logo-img{
+    display:none;   
+} 
+.block-null{
+    display:none; 
+}
+.canvas-mobile{
+    display:flex;
+    
+}
+} 
+
+
+@media (min-width:770px){
+    .canvas-mobile{
+        display:none;
+       
+    }
+}

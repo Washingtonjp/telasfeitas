@@ -1,0 +1,74 @@
+h1{
+    color: #28a745;
+}
+txt-fruta{
+    background-color: #28a745; 
+}
+
+.imgfruta{
+    width:70px;
+    height: 70px;
+    text-align: center;
+}
+
+.btnContinuaComprando{
+   
+}
+
+.btnContinuaComprando:hover{
+    background: #50C5BC;
+}
+
+.btnExcluir{
+    text-align: center;
+}
+
+
+.bi-trash{
+    display: block;
+    content: "";
+    background-image: url(../images/btn/garbage.png);
+    background-repeat: no-repeat;
+    position: relative; 
+    width: 26px;
+    height: 28px; 
+    margin-left: -8px; 
+    margin-top: -3px;
+    margin-right: -2px;
+} 
+
+
+.btn-green{
+    /* cor da letra do botão  */
+    color: black;
+    background-color: #c4cac3;
+
+
+}
+
+.btn-green:hover{
+    background-color: #85d37e;
+}
+
+.btn-red{
+    background-color: #ffffff;
+}
+
+.btn-red:hover{
+    background-color: rgb(224, 131, 131);
+}
+
+#quantidade{
+    border-color:#28a745;
+}
+
+.titulo-produto{
+    text-align: left;
+}
+
+.ml{
+    margin-left: -47px;
+    margin-right: 47px;
+}
+
+
